@@ -1,0 +1,10 @@
+Program 1 implememts k-means using Lloyd's algorithm.It can be run as follows:
+python3 lkm.py data_file k(num of clusters) r(num of iterations) output_file
+
+Program 2 implements k-means clustering using kmeans++ algorithm.It can be run as follows:
+python3 kmeanspp.py data_file k(num of clusters) r(num of iterations) output_file
+
+
+Program 3 implements k-means clustering using spectral clustering algorithm.It can be run as follows:
+python3 spectral.py data_file k(num of clusters) sigma_value output_file
+Good sigma value for part-II is 2.2 which gives quantization error of 89.9 when tested on full irisdataset.
